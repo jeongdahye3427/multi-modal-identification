@@ -27,7 +27,7 @@ To extract demographic information from face images, we use LightFace libray, wh
 LightFace's github: https://github.com/serengil/deepface
 
 ```
-
+Demography/demography.ipynb
 ```
 
 3. Aligning data (face-voice)
@@ -35,12 +35,17 @@ Since we used separate face images and voice files from different data sets, we 
 
 <img src='https://user-images.githubusercontent.com/41101841/157564085-cc4624e3-284f-4152-9f1a-b503c8c800a2.jpg' width=50%> 
 
-```
-
-```
-
 4. training and testing multimodal identification model
 We train the proposed model using face, voice, and demographic features on unmasked and masked faces.
+If you want to retrain our model with your data, execute the files below. These are models for mask and unmask respectively. When you retrain our model, you have to change your data path.
+
+```
+Models/FV_original_v2.ipynb
+Models/FV_mask_v2.ipynb
+```
+
+If you want to train and test our model with our data, you can execute the files below with our features files.
+
 ```
 
 ```

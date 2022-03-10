@@ -4,7 +4,7 @@ We propose a multi-modal identification model for human authentication using fac
 
 <img src= 'https://user-images.githubusercontent.com/41101841/157562028-e496c430-d99e-4699-b064-d61a8cf9ba61.jpg' width=60%>
 
-Our experiment orders are as follows:
+Our experiment sequences are as follows:
 
 1. Masking face
 We used MaskTheFace model to augment our sampled dataset. MaskTheFace is a publicly available package that converts the face images into masked-face images.

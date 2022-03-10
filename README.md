@@ -47,5 +47,6 @@ Models/FV_mask_v2.ipynb
 If you want to train and test our model with our data, you can execute the files below with our features files.
 
 ```
-
+Models/FV_original_v1.ipynb
+Models/FV_mask_v1.ipynb
 ```

@@ -40,13 +40,13 @@ We train the proposed model using face, voice, and demographic features on unmas
 If you want to retrain our model with your data, execute the files below. These are models for mask and unmask respectively. When you retrain our model, you have to change your data path. And, the code includes aligning data part.
 
 ```
-Model/FV_original_v2.ipynb
+Model/FV_unmask_v2.ipynb
 Model/FV_mask_v2.ipynb
 ```
 
 If you want to train and test our model with our data, you can execute the files below with our features files. We uploaded demographic features and face features. Because size of voice features is big, we uploaded voice features in google drive.
 
 ```
-Model/FV_original_v1.ipynb
+Model/FV_unmask_v1.ipynb
 Model/FV_mask_v1.ipynb
 ```

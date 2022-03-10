@@ -37,7 +37,7 @@ Since we used separate face images and voice files from different data sets, we 
 
 4. training and testing multimodal identification model
 We train the proposed model using face, voice, and demographic features on unmasked and masked faces.
-If you want to retrain our model with your data, execute the files below. These are models for mask and unmask respectively. When you retrain our model, you have to change your data path.
+If you want to retrain our model with your data, execute the files below. These are models for mask and unmask respectively. When you retrain our model, you have to change your data path. And, the code includes aligning data part.
 
 ```
 Models/FV_original_v2.ipynb

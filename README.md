@@ -1,8 +1,9 @@
 # Multimodal identification model for occluded faces in the context of COVID-19
 
 We propose a multi-modal identification model for human authentication using face, voice, and demographic information(age, gender, and race). We also propose demographic module to utilize demographic information in the proposed model. In addition, we train the proposed model using unmasked and masked faces to compensate low performance in case of masked faces. The overview of our proposed model is as follows:
+![multimodal3](https://user-images.githubusercontent.com/41101841/157573183-39520451-7512-4e2c-ba24-143693d6dd51.jpg)
 
-<img src= 'https://user-images.githubusercontent.com/41101841/157562028-e496c430-d99e-4699-b064-d61a8cf9ba61.jpg' width=60%>
+<!-- <img src= 'https://user-images.githubusercontent.com/41101841/157562028-e496c430-d99e-4699-b064-d61a8cf9ba61.jpg' width=60%> -->
 
 Our experiment sequences are as follows:
 

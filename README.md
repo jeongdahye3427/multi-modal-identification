@@ -44,7 +44,7 @@ Models/FV_original_v2.ipynb
 Models/FV_mask_v2.ipynb
 ```
 
-If you want to train and test our model with our data, you can execute the files below with our features files.
+If you want to train and test our model with our data, you can execute the files below with our features files. We uploaded demographic features and face features. Because size of voice features is big, we uploaded voice features in google drive.
 
 ```
 Models/FV_original_v1.ipynb

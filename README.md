@@ -11,7 +11,15 @@ We used MaskTheFace model to augment our sampled dataset. MaskTheFace is a publi
 MaskTheFace's github: https://github.com/aqeelanwar/MaskTheFace
 
 ```
-!python MaskTheFace.py
+cd MaskTheFace
+pip install –r requirements.txt
+
+cd MaskTheFace
+# Generic
+python mask_the_face.py --path <path-to-file-or-dir> --mask_type <type-of-mask> --verbose --write_original_image
+
+# Example
+python mask_the_face.py --path 'data/office.jpg' --mask_type 'N95' --verbose --write_original_image
 ```
 
 2. Extracting demographic information(age, gender, and race)

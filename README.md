@@ -3,7 +3,9 @@
 We propose a multi-modal identification model for human authentication using face, voice, and demographic information(age, gender, and race). We also propose demographic module to utilize demographic information in the proposed model. In addition, we train the proposed model using unmasked and masked faces to compensate low performance in case of masked faces. The overview of our proposed model is as follows:
 <!-- ![multimodal3](https://user-images.githubusercontent.com/41101841/157573183-39520451-7512-4e2c-ba24-143693d6dd51.jpg) -->
 
-<img src= 'https://url.kr/tyru93' width=60%>
+<p align = 'center'>
+<img src= 'https://url.kr/tyru93' width=50%>
+</p>
 
 Our experiment sequences are as follows:
 
@@ -34,7 +36,9 @@ Demography/demography.ipynb
 3. Aligning data (face-voice)
 Since we used separate face images and voice files from different data sets, we had to align the face and voice data to create virtual identities for testing purposes. We randomly selected 10 classes of face and voice data and matched them one by one. Following figure shows example of aligning data method.
 
+<p align='center'>
 <img src='https://user-images.githubusercontent.com/41101841/157564085-cc4624e3-284f-4152-9f1a-b503c8c800a2.jpg' width=50%> 
+</p>
 
 4. Training and testing multimodal identification model
 We train the proposed model using face, voice, and demographic features on unmasked and masked faces.

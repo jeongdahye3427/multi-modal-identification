@@ -7,6 +7,8 @@ We propose a multi-modal identification model for human authentication using fac
 <img src= 'https://url.kr/tyru93' width=50%>
 </p>
 
+If you can not see the figure of our model, the figure is avaliable at 'https://url.kr/tyru93'.
+
 Our experiment sequences are as follows:
 
 1. Masking face
